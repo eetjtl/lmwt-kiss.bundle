@@ -32,9 +32,10 @@ This plugin creates a new channel within [Plex Media Server](https://plex.tv/) (
 
 ## Issues
 
-- Currently there are many PrieWire sites, but not all of them are structured the same.
+- Currently there are many PrimeWire sites, but not all of them are structured the same.
 - Current URL test is `Domain + '/watch-2741621-Brooklyn-Nine-Nine'`
   - Example: `http://www.primewire.ag/watch-2741621-Brooklyn-Nine-Nine`
+- Allowing Adult content is still experimental and as such may not work for all sources.
 
 ## [Changelog](Changelog.md#changelog)
 
