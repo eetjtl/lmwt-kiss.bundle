@@ -8,7 +8,7 @@
       <dict>
         <key>URLPatterns</key>
         <array>
-          <string>^primewire\:\/\/goto\.php\?.+?url.+?$</string>
+          <string>^primewire\:\/\/gohere\.php\?.+?url.+?$</string>
         </array>
       </dict>
     </dict>

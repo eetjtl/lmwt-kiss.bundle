@@ -507,7 +507,7 @@ def MediaVersions(url, title, thumb):
         return MC.message_container('Error', 'UnSupportedServices.bundle Required')
 
     summary = html.xpath('//meta[@name="description"]/@content')[0].split(' online - ', 1)[-1].split('. Download ')[0]
-    for ext_url in html.xpath('//a[contains(@href, "/goto.php?")]/@href'):
+    for ext_url in html.xpath('//a[contains(@href, "/gohere.php?")]/@href'):
         hurl = String.Base64Decode(ext_url.split('url=')[-1].split('&')[0])
         if hurl.split('/')[2].replace('www.', '') in ['youtube.com']:
             continue

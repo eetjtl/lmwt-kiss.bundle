@@ -1,5 +1,9 @@
 # ChangeLog
 
+##### 1.1.1
+- _08/05/17_
+  - Fixed Primewire "No Compatible Sources Found" error
+
 ##### 1.1.0
 - _05/10/16_
   - Fixed Vidzi Chromecast error, had to remove hls support
