@@ -512,11 +512,6 @@ def MediaVersions(url, title, thumb):
         if hurl.split('/')[2].replace('www.', '') in ['youtube.com']:
             continue
 
-        # Trick to use the UnSupportedServices URL Service for URLs within the trick_list
-        #trick_list = ['vidzi', 'vodlocker', 'gorillavid', 'faststream']
-        #test = ['uss/' + hurl for u in trick_list if Regex(r'(?:\.|\/)(%s)\.' %u).search(hurl)]
-        #hurl = test[0] if test else hurl
-
         if URLService.ServiceIdentifierForURL(hurl) is not None:
             host = Regex(r'https?\:\/\/([^\/]+)').search(hurl).group(1).replace('www.', '')
             pw_url = 'primewire:%s' %(ext_url if ext_url.startswith('//') else '/'+ext_url) + '&pw_page_url=' + url

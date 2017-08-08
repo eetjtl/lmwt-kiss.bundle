@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""PrimWire Service Code"""
+"""PrimeWire Service Code"""
 
 ####################################################################################################
 def MetadataObjectForURL(url):
@@ -131,10 +131,5 @@ def MediaObjectsForURL(url):
 def split_urls(url):
     urls = url.split('&pw_page_url=')
     hurl = String.Base64Decode(urls[0].split('url=')[-1].split('&')[0])
-
-    # Trick to use the UnSupportedServices URL Service for URLs within the uss_list
-    #uss_list = ['vidzi', 'vodlocker', 'gorillavid', 'faststream']
-    #test = ['uss/' + hurl for u in uss_list if Regex(r'(?:\.|\/)(%s)\.' %u).search(hurl)]
-    #hurl = test[0] if test else hurl
 
     return (urls[1], hurl)

@@ -2,7 +2,13 @@
 
 ##### 1.1.1
 - _08/07/17_
-  - Fixed Primewire "No Compatible Sources Found" error
+  - Migrated to [USS](https://github.com/Twoure/UnSupportedServices.bundle)
+  - Fixed Primewire "No Compatible Sources Found" error [PR#4](https://github.com/Twoure/lmwt-kiss.bundle/pull/4)
+  - DumbTools/Prefs - Added `Xbox One` and `Apple TV v4`
+  - Added new internal channel updater
+  - Added `Allow Adult Content` pref _(only works with `.org` and `.is` currently)_
+  - Added new License
+  - Added `Genre` section
 
 ##### 1.1.0
 - _05/10/16_
