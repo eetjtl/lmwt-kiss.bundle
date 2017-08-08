@@ -70,12 +70,13 @@ def MainMenu():
     oc = ObjectContainer(title2=TITLE, no_cache=Client.Product in ['Plex Web'])
 
     if admin:
+        lvc = list()
         if Prefs['update_channel'] == 'Stable':
             # Setup Updater to track latest release
-            Updater.gui_update(PREFIX + '/updater', oc, GIT_REPO, tag='latest')
+            Updater.gui_update(PREFIX + '/updater', oc, GIT_REPO, tag='latest', list_view_clients=lvc)
         else:
             # Setup Updater to track branch commits
-            Updater.gui_update(PREFIX + '/updater', oc, GIT_REPO, branch='dev')
+            Updater.gui_update(PREFIX + '/updater', oc, GIT_REPO, branch='dev', list_view_clients=lvc)
 
     oc.add(DirectoryObject(
         key=Callback(Section, title='Movies', type='movies'), title='Movies', thumb=R(MOVIE_ICON)
