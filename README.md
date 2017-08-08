@@ -1,11 +1,13 @@
 PrimeWire (formerly LetMeWatchThis)
 =========
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c0bee68f66034daeac2126f5fd8d0a68)](https://www.codacy.com/app/twoure/lmwt-kiss.bundle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Twoure/lmwt-kiss.bundle&amp;utm_campaign=Badge_Grade) [![GitHub issues](https://img.shields.io/github/issues/Twoure/lmwt-kiss.bundle.svg?style=flat)](https://github.com/Twoure/lmwt-kiss.bundle/issues) [![](https://img.shields.io/github/release/Twoure/lmwt-kiss.bundle.svg?style=flat)](https://github.com/Twoure/lmwt-kiss.bundle/releases)
+
 _Keep It Simple, Stupid_ _([KISS](https://en.wikipedia.org/wiki/KISS_principle))_ _Version_
 
-> **Note:** The author of this plugin has no affiliation with [PrimeWire](http://www.primewire.ag) nor the owners of the content that they host.
-
 This plugin creates a new channel within [Plex Media Server](https://plex.tv/) (PMS) to view content from [PrimeWire](http://www.primewire.ag).
+
+> **Note:** The author of this plugin has no affiliation with [PrimeWire](http://www.primewire.ag) nor the owners of the content that they host.
 
 ## Requirements
 
