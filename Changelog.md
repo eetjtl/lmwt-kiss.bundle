@@ -1,7 +1,7 @@
 # ChangeLog
 
 ##### 1.1.1
-- _08/05/17_
+- _08/07/17_
   - Fixed Primewire "No Compatible Sources Found" error
 
 ##### 1.1.0
