@@ -514,7 +514,7 @@ def MediaVersions(url, title, thumb):
 
         if URLService.ServiceIdentifierForURL(hurl) is not None:
             host = Regex(r'https?\:\/\/([^\/]+)').search(hurl).group(1).replace('www.', '')
-            pw_url = 'primewire:%s' %(ext_url if ext_url.startswith('//') else '/'+ext_url) + '&pw_page_url=' + url
+            pw_url = Dict['pw_site_url'] + '%s' %(ext_url if ext_url.startswith('//') else ''+ext_url) + '&pw_page_url=' + url
 
             oc.add(DirectoryObject(
                 key=Callback(MediaPlayback, url=pw_url, title=title),
